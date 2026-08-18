@@ -1,0 +1,16 @@
+# Generator and diagnostic scripts are kept private; bitmaps.h is committed so
+# the sketch builds without them.
+tools/
+
+# Python
+__pycache__/
+*.pyc
+
+# Diagnostic render, not part of the watchface
+sprites/all_times.png
+
+# Build output
+build/
+*.bin
+*.elf
+*.hex
